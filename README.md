@@ -69,31 +69,48 @@ DELETE   /api/alunos/{id}/       Excluir um aluno
 
 ## 🧠 Como Executar o Backend Localmente
 
-1️⃣ Clonar o repositório:
-
+1️⃣ **Clonar o repositório:**
 ```bash
-git clone https://github.com/Crystian-Paz/UniPost_Api.git
+git clone [https://github.com/Crystian-Paz/UniPost_Api.git](https://github.com/Crystian-Paz/UniPost_Api.git)
 cd UniPost_Api
-```
+
 2️⃣ Criar e ativar o ambiente virtual:
-```bash
+
+Bash
+
+# Criar o ambiente
 python -m venv venv
-# Linux / macOS: source venv/bin/activate
-# Windows: venv\Scripts\activate
-```
+Ative o ambiente:
+
+No Linux / macOS:
+
+Bash
+
+source venv/bin/activate
+No Windows (PowerShell/CMD):
+
+Bash
+
+venv\Scripts\activate
 
 3️⃣ Instalar dependências e aplicar migrações:
-```bash
-pip install django djangorestframework
+
+Bash
+
+pip install --upgrade pip
+
+# Instalar TODAS as dependências do projeto
+pip install -r requirements.txt
+
+# Aplicar as migrações (criar o banco de dados db.sqlite3)
 python manage.py migrate
-```
 
 4️⃣ Rodar o servidor:
-```bash
-python manage.py runserver
-```
 
-O backend estará rodando em: ```http://127.0.0.1:8000/```
+Bash
+
+python manage.py runserver
+O backend estará rodando em: http://127.0.0.1:8000/
 
 ---
 ## 🧱 Banco de Dados
