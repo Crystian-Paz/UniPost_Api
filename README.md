@@ -70,33 +70,55 @@ DELETE   /api/alunos/{id}/       Excluir um aluno
 ## 🧠 Como Executar o Backend Localmente
 
 1️⃣ **Clonar o repositório:**
+
 ```bash
-git clone [https://github.com/Crystian-Paz/UniPost_Api.git](https://github.com/Crystian-Paz/UniPost_Api.git)
+git clone https://github.com/Crystian-Paz/UniPost_Api.git
 cd UniPost_Api
+```
 
-2️⃣ Criar e ativar o ambiente virtual:
+2️⃣ **Criar o ambiente virtual:**
 
-Bash
+```bash
 
-# Criar o ambiente
+# Este comando cria a pasta 'venv'
 python -m venv venv
-Ative o ambiente:
 
-No Linux / macOS:
+```
 
-Bash
+3️⃣ **Ativar o ambiente virtual (Escolha UM):**
+
+Em Linux / macOS (Terminal Bash/Zsh):
+
+```Bash
 
 source venv/bin/activate
-No Windows (PowerShell/CMD):
 
-Bash
+```
 
-venv\Scripts\activate
 
-3️⃣ Instalar dependências e aplicar migrações:
+Em Windows (PowerShell):
 
-Bash
+```PowerShell
 
+venv\Scripts\Activate.ps1
+
+```
+
+Em Windows **(Git Bash - Recomendado)**:
+
+```Bash
+
+source venv/Scripts/activate
+
+```
+
+4️⃣ **Instalar dependências e aplicar migrações:**
+
+(Após ativar, seu terminal deve mostrar (venv) no início da linha)
+
+```Bash
+
+# (Opcional, mas recomendado) Atualizar o pip
 pip install --upgrade pip
 
 # Instalar TODAS as dependências do projeto
@@ -105,11 +127,16 @@ pip install -r requirements.txt
 # Aplicar as migrações (criar o banco de dados db.sqlite3)
 python manage.py migrate
 
-4️⃣ Rodar o servidor:
+```
 
-Bash
+5️⃣ **Rodar o servidor:**
+
+```Bash
 
 python manage.py runserver
+
+```
+
 O backend estará rodando em: http://127.0.0.1:8000/
 
 ---
@@ -135,6 +162,7 @@ Todos os dados inseridos via frontend são persistidos automaticamente.
 - **Bruno Nogueira da Rocha**  
 - **Kaique Lemos da Silva**  
 - **Pedro Vinícius de Arruda Barbosa**
+- **Gustavo Teixeira Bione**
   
 💼 Projeto de aplicação web (Django + React)  
 📚 Persistência de dados com SQLite  
