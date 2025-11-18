@@ -167,6 +167,9 @@ Todos os dados inseridos via frontend são persistidos automaticamente.
 - **Pedro Vinícius de Arruda Barbosa**
 - **Matheus Felipe Vilas Boas de Araujo Silva**
 - **Gustavo Teixeira Bione**
+- **Thiago de Lima Freire**
+- **Lucas Ferraz Valença Parente**
+
   
 💼 Projeto de aplicação web (Django + React)  
 📚 Persistência de dados com SQLite  
