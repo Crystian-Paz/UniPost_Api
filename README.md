@@ -165,6 +165,7 @@ Todos os dados inseridos via frontend são persistidos automaticamente.
 - **Bruno Nogueira da Rocha**  
 - **Kaique Lemos da Silva**  
 - **Pedro Vinícius de Arruda Barbosa**
+- **Matheus Felipe Vilas Boas de Araujo Silva**
 - **Gustavo Teixeira Bione**
   
 💼 Projeto de aplicação web (Django + React)  
