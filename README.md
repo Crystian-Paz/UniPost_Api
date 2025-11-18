@@ -72,8 +72,9 @@ DELETE   /api/alunos/{id}/       Excluir um aluno
 1️⃣ **Clonar o repositório:**
 
 ```bash
+
 git clone https://github.com/Crystian-Paz/UniPost_Api.git
-cd UniPost_Api
+
 ```
 
 2️⃣ **Criar o ambiente virtual:**
