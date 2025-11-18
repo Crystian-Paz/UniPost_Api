@@ -2,7 +2,7 @@
 
 ## 📖 Descrição
 UniPost_Api é o backend do sistema **UniPost**, desenvolvido em **Django** com **Django REST Framework**.  
-Ele fornece uma API RESTful completa para gerenciamento de alunos, permitindo cadastrar, listar, editar e excluir registros, garantindo persistência de dados em **SQLite** e integração eficiente com o frontend React.
+Ele fornece uma API RESTful completa para gerenciamento de alunos, que é consumida pelo [UniPost (Frontend)](https://github.com/Crystian-Paz/UniPost). A API permite cadastrar, listar, editar e excluir registros, garantindo persistência de dados em **SQLite**.
 
 ---
 
@@ -69,18 +69,21 @@ DELETE   /api/alunos/{id}/       Excluir um aluno
 
 ## 🧠 Como Executar o Backend Localmente
 
+Este repositório contém apenas o backend. Para a interface de usuário, acesse o repositório do [UniPost (Frontend)](https://github.com/Crystian-Paz/UniPost).
+
 1️⃣ **Clonar o repositório:**
 
 ```bash
+
 git clone https://github.com/Crystian-Paz/UniPost_Api.git
-cd UniPost_Api
+
 ```
 
 2️⃣ **Criar o ambiente virtual:**
 
 ```bash
 
-# Este comando cria a pasta 'venv'
+# Cria a pasta 'venv'
 python -m venv venv
 
 ```
@@ -137,7 +140,7 @@ python manage.py runserver
 
 ```
 
-O backend estará rodando em: http://127.0.0.1:8000/
+O backend estará rodando em: ``http://127.0.0.1:8000/``
 
 ---
 ## 🧱 Banco de Dados
